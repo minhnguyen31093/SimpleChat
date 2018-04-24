@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:layout_marginTop="6dp"
+    android:background="#f5eede"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <com.github.minhnguyen31093.simplechat.views.LinkClickableTextView
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ltvHashTagEnabled="true"
+        app:ltvTagEnabled="true" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:actualImageScaleType="fitCenter"
+        app:fadeDuration="0"
+        app:viewAspectRatio="1.33" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LinkClickableTextView">
+        <attr name="ltvShortUrlEnabled" format="boolean" />
+        <attr name="ltvUrlEnabled" format="boolean" />
+        <attr name="ltvEmailEnabled" format="boolean" />
+        <attr name="ltvPhoneEnabled" format="boolean" />
+        <attr name="ltvHashTagEnabled" format="boolean" />
+        <attr name="ltvTagEnabled" format="boolean" />
+        <attr name="ltvCacheEnabled" format="boolean" />
+        <attr name="ltvType" format="enum">
+            <enum name="html" value="1" />
+            <enum name="spannable" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

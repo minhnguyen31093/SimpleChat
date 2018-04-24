@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="link">#006699</color>
+    <color name="linkPressed">#1facf2</color>
+    <color name="linkVisited">#8A0099</color>
+    <color name="linkVisitedPressed">#cb23de</color>
+    <color name="tag">#009975</color>
+    <color name="tagPressed">#15c99e</color>
+    <color name="hashTag">#997d00</color>
+    <color name="hashTagPressed">#caaa1a</color>
+</resources>
